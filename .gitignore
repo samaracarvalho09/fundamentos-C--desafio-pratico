@@ -1,0 +1,66 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+*.exe
+*.dll
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
+*.log
+
+# Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nuget/packages/
+*.nuget/repository/
+
+# Others
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og/
+_ReSharper.Caches/
+
+# Temporary files
+*.swp
+*~
+~$*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+*.sln.iml
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Office temporary files
+~$*
