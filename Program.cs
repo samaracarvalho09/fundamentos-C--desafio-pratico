@@ -86,16 +86,16 @@ class Program
       switch (formatoData)
     {
         case 1:
-            Console.WriteLine(DateTime.Now.ToString("dddd, dd 'de' MMMM 'de' yyyy, HH:mm:ss")); // Exibe o formato completo
+            Console.WriteLine(DateTime.Now.ToString("dddd, dd 'de' MMMM 'de' yyyy, HH:mm:ss")); // sexta-feira, 15 de novembro de 2024, 11:00:42
             break;
         case 2:
-            Console.WriteLine(DateTime.Now.ToString("dd/MM/yyyy")); // Somente a data
+            Console.WriteLine(DateTime.Now.ToString("dd/MM/yyyy")); // 15/11/2024
             break;
         case 3:
-            Console.WriteLine(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")); // Data e hora
+            Console.WriteLine(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")); // 15/11/2024 11:01:14
             break;
         case 4:
-            Console.WriteLine(DateTime.Now.ToString("dd 'de' MMMM 'de' yyyy")); // Data com mês por extenso
+            Console.WriteLine(DateTime.Now.ToString("dd 'de' MMMM 'de' yyyy")); // 15 de novembro de 2024
             break;
         default:
             Console.WriteLine("Opção inválida. Por favor, escolha um número de 1 a 4.");
